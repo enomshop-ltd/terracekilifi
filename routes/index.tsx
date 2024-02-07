@@ -14,7 +14,12 @@ export default function Home() {
           <div class="flex-initial w-32 bg-no-repeat bg-center mt-2.5" style={asset("background-image: url(/images/accomodation.svg)")}></div>
         </div>
       </div>
-      <div class="w-full bg-gray-600 h-screen"></div>
+      <div class="flex flex-row w-full h-screen bg-black p-20">
+        <div class="w-1/2 bg-cover bg-no-repeat bg-center rounded-t-3xl" style={asset("background-image: url(/images/party_p2.jpg)")}>
+          <div class="flex w-full h-full bg-gradient-to-t from-black"></div>
+        </div>
+        <div></div>
+      </div>
       <div class="w-full bg-gray-500 h-screen"></div>
       <div class="w-full bg-gray-600 h-screen"></div>
       <div class="w-full bg-gray-500 h-screen"></div>
