@@ -50,11 +50,38 @@ export default function Home() {
           </div> 
         </div>
       </div>
-      <div class="w-full bg-gray-500 h-screen"></div>
-      <div class="w-full bg-gray-600 h-screen"></div>
-      <div class="w-full bg-gray-500 h-screen"></div>
-      <div class="w-full bg-gray-600 h-screen"></div>
-      <div class="w-full bg-gray-500 h-screen"></div>
+      <div class="w-full bg-white h-screen p-20 flex flex-col capitalize">
+        <h4 class="text-2xl font-thin pb-6">What we have <span class="font-bold text-green-500">planned</span> for you in 2024</h4>
+        <div class="grid grid-flow-row-dense grid-cols-7 grid-rows-2 gap-7">
+          <div class="col-span-3 row-span-2 h-full flex flex-col">
+            <div class="w-full h-3/4 bg-gradient-to-t from-white bg-red-500 rounded-t-lg"></div>
+            <h4 class="text-xl font-bold pb-1">Terradundo Monthly</h4>
+            <p class="text-xs text-gray-400">Terradundo is an African dance party! A Friday after work special, every first Friday, from 4pm - 4am. Folks come together to freely release, collectively celebrate and usher in the weekend on a high! With a spotlight on homegrown Kilifi (& coast-based) DJs, Terradundo party themes travel across the continent, the diaspora, across genres and moods. Every Friday is a delightful musical adventure. </p>
+          </div>
+          <div class="col-span-2 h-72 flex flex-col">
+            <div class="w-full h-3/4 bg-gradient-to-t from-white bg-red-500 rounded-t-lg"></div>
+            <h4 class="text-xl font-bold pb-1">Bi-Annual Boat Parade</h4>
+            <p class="text-xs text-gray-400">Live music and DJ performances; fashion & visual art exhibits; art exchanges with the local community at Point Mchu & mangrove restoration activities.</p>
+          </div>
+          <div class="col-span-2 h-72 flex flex-col">
+            <div class="w-full h-3/4 bg-gradient-to-t from-white bg-red-500 rounded-t-lg"></div>
+            <h4 class="text-xl font-bold pb-1">Monthly Skilling Workshop Series</h4>
+            <p class="text-xs text-gray-400">Every month, we invite artists and industry experts to teach interactive workshops of all genres, with a special spotlight on film, music and fashion. Workshops are accessible to the Kilifi artist community.</p>
+          </div>
+          <div class="col-span-2 h-72 flex flex-col">
+            <div class="w-full h-3/4 bg-gradient-to-t from-white bg-red-500 rounded-t-lg"></div>
+            <h4 class="text-xl font-bold pb-1">Weekly Sunday Live Concerts</h4>
+            <p class="text-xs text-gray-400">A stripped down acoustic concert featuring 52 Kenyan & East African musicians. Every Sunday, a musician is invited to perform a 2-hr live acoustic session at The Terrace Art Space. All performances are filmed to create an online video library.</p>
+          </div>
+          <div class="col-span-2 h-72 flex flex-col">
+            <div class="w-full h-3/4 bg-gradient-to-t from-white bg-red-500 rounded-t-lg"></div>
+            <h4 class="text-xl font-bold pb-1">Monthly African Film Nights</h4>
+            <p class="text-xs text-gray-400">Featuring African films made by Kenyan & East African filmmakers. Every month, a film is selected for screening, and the film’s creators are invited to attend the screenings and participate in Q&A with attendees afterwards. Screenings are hosted at The Terrace Art Space; invited guests stay at the Residency in Majajani.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full bg-gray-600"></div>
     </div>
     
   );
