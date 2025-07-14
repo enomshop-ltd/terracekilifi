@@ -31,6 +31,6 @@ jobs:
         with:
           project: "nelly1-terracekili-40"
           entrypoint: "main.ts"
-          root: "./"
+          root: "."
           
           
