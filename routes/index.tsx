@@ -1,6 +1,6 @@
 import { useSignal } from "@preact/signals";
 import { define } from "../utils.ts";
-import { asset } from "$fresh/runtime.ts";
+import { asset } from "fresh/runtime";
 
 export default define.page(function Home() {
   const count = useSignal(3);
