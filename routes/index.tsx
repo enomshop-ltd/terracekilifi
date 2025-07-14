@@ -1,8 +1,7 @@
 import { useSignal } from "@preact/signals";
-import Counter from "../islands/Counter.tsx";
+import { asset } from "$fresh/runtime.ts";
 
 export default function Home() {
-  const count = useSignal(3);
   return (
     <div class="flex flex-col mb-4 font-sans">
       <div class="w-full h-screen bg-scroll" style={asset("background-image: url(/images/cover.jpg)")}>
