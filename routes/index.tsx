@@ -7,13 +7,7 @@ export default define.page(function Home() {
 
   return (
     <div class="flex flex-col mb-4 font-sans">
-      <div class="w-full h-screen bg-scroll" style={asset("background-image: url(/images/cover.jpg)")}>
-        <div class="flex flex-row absolute inset-x-0 bottom-0 h-24 bg-yellow-400">
-          <div class="flex-none w-64 bg-black bg-contain bg-no-repeat bg-center"  style={asset("background-image: url(/images/terracebar.png)")}></div>
-          <div class="flex-initial w-32 bg-no-repeat bg-center mt-2.5" style={asset("background-image: url(/images/studio.svg)")}></div>
-          <div class="flex-initial w-32 bg-no-repeat bg-center mt-2.5" style={asset("background-image: url(/images/food-menu.svg)")}></div>
-          <div class="flex-initial w-32 bg-no-repeat bg-center mt-2.5" style={asset("background-image: url(/images/accomodation.svg)")}></div>
-        </div>
+      <div class="w-full h-screen bg-scroll bg-yellow-400">
       </div>
       <div class="w-full h-screen bg-black p-20 flex flex-row gap-x-16 capitalize">
         <div class="w-2/5 bg-cover bg-no-repeat bg-center rounded-3xl" style={asset("background-image: url(/images/party_p2.jpg)")}>
