@@ -19,6 +19,7 @@ export default function Home() {
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
         </p>
         <Counter count={count} />
+        <span class="loading loading-spinner loading-xs"></span>
       </div>
     </div>
   );
