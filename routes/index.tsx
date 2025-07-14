@@ -4,7 +4,7 @@ import { asset } from "$fresh/runtime.ts";
 export default function Home() {
   return (
     <div class="flex flex-col mb-4 font-sans">
-      <div class="carousel w-full">
+      <div class="carousel w-full h-full">
         <div id="slide1" class="carousel-item relative w-full">
           <img
             src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
