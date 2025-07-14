@@ -29,7 +29,7 @@ jobs:
           node-version: lts/*
 
       - name: Install step
-        run: "deno run -A -r https://fresh.deno.dev"
+        run: "deno install"
 
       - name: Build step
         run: "deno task build"
@@ -37,8 +37,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "nelly1-terracekili-40"
+          project: "nelly1-terracekili-90"
           entrypoint: "main.ts"
-          root: "fresh-project"
+          root: "./"
           
           
