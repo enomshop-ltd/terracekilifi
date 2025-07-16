@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div class="flex flex-col">
       <div class="carousel w-full h-full">
-        <div id="slide1" class="carousel-item relative w-full">
+        <div id="slide1" class="carousel-item relative w-full h-full">
           <img
             src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
             class="w-full" />
