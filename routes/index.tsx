@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div class="flex flex-col">
       <div class="carousel w-screen h-screen">
-        <div id="slide1" class="carousel-item relative w-full h-full">
+        <div id="slide1" class="carousel-item relative w-full h-full bg-linear-to-b from-transparent to-black bg-[url(https://widowchampion.com/_assets/media/abf6f9608eba849ea1f469ab03bcb32c.jpg)]">
           <img
             src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
             class="w-full" />
