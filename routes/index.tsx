@@ -6,9 +6,7 @@ export default function Home() {
     <div class="flex flex-col">
       <div class="carousel w-screen h-screen">
         <div id="slide1" class="carousel-item relative w-full h-full bg-gradient-to-t to-black bg-[url(https://widowchampion.com/_assets/media/abf6f9608eba849ea1f469ab03bcb32c.jpg)]">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-            class="w-full" />
+          
           <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide4" class="btn btn-circle">❮</a>
             <a href="#slide2" class="btn btn-circle">❯</a>
